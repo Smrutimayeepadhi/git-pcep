@@ -24,3 +24,13 @@ git config --global user.email "useremail"
 
 ```
 5- add any files
+
+6- add a branch
+```
+git branch -M main
+```
+7- add remote origin
+
+```
+git remote add origin https://github.com/Smrutimayeepadhi/git-pcep.git
+```
