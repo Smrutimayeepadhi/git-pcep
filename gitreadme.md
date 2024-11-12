@@ -66,4 +66,6 @@ __Note__
 ```
 git checkout -b master main
 Switched to a new branch 'master'
+
+git pull gitlab_origin  master --rebase
 ```
