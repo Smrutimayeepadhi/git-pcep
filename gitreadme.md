@@ -27,6 +27,7 @@ git config --global user.email "useremail"
 ```
 git add <file_name>
 git commit -m "message"
+git push
 ```
 
 6- add a branch
