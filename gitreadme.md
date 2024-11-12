@@ -61,3 +61,9 @@ Welcome to GitLab, @Smrutimayeepadhi!
 
 
 ```
+
+__Note__
+```
+git checkout -b master main
+Switched to a new branch 'master'
+```
