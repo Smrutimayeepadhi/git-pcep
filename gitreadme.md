@@ -2,7 +2,7 @@
 
 2- initialize git init
 ```
-git init
+git init 
 ```
 3- to check what .git contains
 ```
@@ -24,6 +24,10 @@ git config --global user.email "useremail"
 
 ```
 5- add any files
+```
+git add <file_name>
+git commit -m "message"
+```
 
 6- add a branch
 ```
@@ -33,4 +37,26 @@ git branch -M main
 
 ```
 git remote add origin https://github.com/Smrutimayeepadhi/git-pcep.git
+```
+8-  push the changes to remote
+```
+git push -u origin main
+```
+
+9- adding SSH key gitlab
+
+https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account
+
+```
+ssh-keygen -t ed25519-sk -C "<comment>"
+
+cat /Users/himanjan/.ssh/id_ed25519_gitlab.pub
+
+eval $(ssh-agent -s)
+ssh-add /Users/himanjan/.ssh/id_ed25519_gitlab
+ssh -T git@gitlab.com
+
+Welcome to GitLab, @Smrutimayeepadhi!
+
+
 ```
